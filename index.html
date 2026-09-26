@@ -15,6 +15,18 @@
     #food-title {
         color: green;
     }
+    .bg-red{
+        background-color: rebeccapurple;
+    }
+    .bold{
+       font-weight: 900;
+    }
+    .big{
+        font-size: 3em;
+    }
+    .food .foreign{
+        font-weight: 700;
+    }
 </style>
 
 <body>
@@ -113,6 +125,10 @@ console.log ('final round',TraversEdge.innerText);
        foodTitelH1.style.backgroundColor='#4D3D3C';
        foodTitelH1.style.padding='30px';
        foodTitelH1.style.textAlign='center';
+
+// ................. access any class by id or class ----------
+       foodTitelH1.classList.add('bold');
+       foodTitelH1.classList.add('big');
        
 
 
