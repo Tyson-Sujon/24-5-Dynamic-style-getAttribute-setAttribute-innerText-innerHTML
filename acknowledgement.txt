@@ -28,3 +28,7 @@ e.g.
 1. class thake data retrive korte hole for...of loop use korte hobe
 
 2.ID thake data retrive korte hole for...of loop use korte hobe na only console log korle colbe
+
+-------------------------------- web browser console------------------------
+
+ata te js practice korte hole KONO VABE RELOAD DEA JABE NA "
