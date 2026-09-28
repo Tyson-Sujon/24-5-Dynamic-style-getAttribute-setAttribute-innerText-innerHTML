@@ -15,7 +15,7 @@
     #food-title {
         color: green;
     }
-    .bg-red{
+    .bg-color{
         background-color: rebeccapurple;
     }
     .bold{
@@ -67,7 +67,7 @@
             </ul>
         </section>
         <section>
-            <ul class="findOutone">
+            <ul class="findOutone xxxz">
                 <li class="rebu">dill</li>
                 <li class="debu">bill</li>
                 <li class="kebu">cill</li>
@@ -93,7 +93,7 @@ console.log ('final round',TraversEdge.innerText);
         console.log('document object model');
         //object er function k method bole
         const student = {
-            name: 'Abul mia',
+            name: 'Abdul mia',
             id: 121,
             study(subject) {
                 console.log('studying subject:', subject)
@@ -168,7 +168,21 @@ console.log ('final round',TraversEdge.innerText);
         }
         const oneItem = document.querySelector('.findOutone .kebu');
         console.log('hello-text:', oneItem.innerText);
+        const newItems=document.getElementById('x');
+        console.log('newItems',newItems);
 
+        // --------------make dynamic class list---------------
+        // --------------this class should be disappeared in html page---------------
+        
+
+        const start=document.getElementById('listing');
+       console.log(start);
+       const classAdded=start.classList.add('bold');
+       const classFind=start.getAttribute('class');
+       console.log(classFind);
+       console.log(' mr.pritom');
+       
+         
 
 
     </script>
